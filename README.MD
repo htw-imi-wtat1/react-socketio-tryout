@@ -1,23 +1,22 @@
 # Socket.io with react
 
+This is a tryout of the example given in [https://www.valentinog.com/blog/socket-react/](https://www.valentinog.com/blog/socket-react/)
+
 ## Usage
 
 start server:
 
     cd socket-io-server && node app.js
 
-Open a browser on
-    open http://localhost:4001/
+Open a browser on http://localhost:4001/ if you want to check if app's running
 
 
 start client:
 
     cd socket-io-client && yarn start
 
+Opens a browser on http://localhost:3000/
 
-
-
-https://www.valentinog.com/blog/socket-react/
 
 ## Step 1: create server
 
@@ -39,3 +38,6 @@ https://www.valentinog.com/blog/socket-react/
 ## Step 3: create client
 
     npx create-react-app socket-io-client
+    yarn add socket.io
+
+copy App.js from website
